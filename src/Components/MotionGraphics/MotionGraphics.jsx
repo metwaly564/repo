@@ -9,7 +9,7 @@ export default function MotionGraphics() {
       <br/>elements with animation to create moving visuals.
       <br/> It encompasses a wide range of applications,
       <br/> from animated text and logos to complex video sequences and visual effects.</p>
-    <img  className='w-96 rounded-lg' src={Photo} alt=""  />
+    <img  className='w-96 rounded-lg hover:scale-110 transition-transform ease-in-out ' src={Photo} alt=""  />
     </div>
     </>
   )

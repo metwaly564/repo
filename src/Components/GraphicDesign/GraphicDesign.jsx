@@ -10,7 +10,7 @@ export default function GraphicDesign() {
     <br/> and text to convey ideas and messages effectively.
     <br/> It plays a crucial role in various media,
     <br/>  including print, digital, and multimedia.</p>
-    <img  className='w-96 rounded-lg' src={Photo} alt=""  />
+    <img  className='w-96 rounded-lg hover:scale-110 transition-transform ease-in-out ' src={Photo} alt=""  />
     </div> 
     </>
      )
