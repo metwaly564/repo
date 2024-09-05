@@ -8,11 +8,11 @@ import Footer from "./Components/Footer/Footer";
 import Error from "./Components/Error/Error";
 import VideoEditing from './Components/VideoEditing/VideoEditing'
 import MotionGraphics from './Components/MotionGraphics/MotionGraphics'
-import Home from "./Components/Home/Home";
-import {BrowserRouter,createBrowserRouter,RouterProvider,} from "react-router-dom";
+import Home from  "./Components/Home/Home";
+import {BrowserRouter,createBrowserRouter,createHashRouter,RouterProvider,} from "react-router-dom";
 import GraphicDesign from './Components/GraphicDesign/GraphicDesign';
 
-let x = createBrowserRouter([
+let x = createHashRouter([
   {
     path: "",
     element: <Layout />,
